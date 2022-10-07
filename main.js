@@ -16,7 +16,7 @@ function playAnimation() {
         duration: 2000,
       },
       "-=600"
-    ) // relative offset
+    )
     .add(
       {
         targets: ".bar",
@@ -25,7 +25,7 @@ function playAnimation() {
         delay: 400,
       },
       400
-    ) // absolute offset
+    )
     .add(
       {
         targets: ".bar__text",
@@ -35,7 +35,7 @@ function playAnimation() {
         delay: 400,
       },
       800
-    ); // absolute offset
+    );
 }
 
 function stopAnimation() {
