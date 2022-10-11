@@ -8,14 +8,12 @@ function playAnimation() {
     targets: ".animation-container",
     translateX: 50,
     duration: 1000,
-    loop: true,
   })
     .add(
       {
         targets: ".bar-wrapper",
         width: "50vw",
         duration: 2000,
-        loop: true,
       },
       "-=600"
     )
@@ -25,7 +23,6 @@ function playAnimation() {
         width: "98%",
         duration: 1000,
         delay: 400,
-        loop: true,
       },
       400
     )
@@ -34,9 +31,8 @@ function playAnimation() {
         targets: ".bar__text",
         opacity: "1",
         translateY: "30%",
-        duration: 400,
+        duration: 350,
         delay: 400,
-        loop: true,
       },
       800
     );
@@ -52,14 +48,12 @@ function stopAnimation() {
     targets: ".bar",
     width: "90%",
     duration: 1400,
-    loop: true,
   })
     .add(
       {
         targets: ".animation-container",
         translateX: 100,
         duration: 1600,
-        loop: true,
       },
       0
     )
@@ -68,7 +62,6 @@ function stopAnimation() {
         targets: ".bar-conceal",
         width: "100%",
         duration: 1600,
-        loop: true,
       },
       0
     );
